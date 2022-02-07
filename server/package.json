@@ -1,0 +1,22 @@
+{
+  "name": "expert-backend",
+  "version": "0.0.1",
+  "description": "Api GraphQL Expert",
+  "main": "index.js",
+  "author": "Elias Jurado <ridimdev@tuta.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
